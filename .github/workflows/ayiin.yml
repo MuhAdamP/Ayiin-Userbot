@@ -1,4 +1,4 @@
-name: AyiinXd
+name: muhadamp
 
 on: [push, pull_request]
 
@@ -52,8 +52,8 @@ jobs:
 
           repository: .
 
-          commit_user_name: AyiinXd
+          commit_user_name: muhadamp
 
           commit_user_email: ayingaming98@gmail.com
 
-          commit_author: AyiinXd <ayingaming98@gmail.com>
+          commit_author: muhadamp <ayingaming98@gmail.com>
