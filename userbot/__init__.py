@@ -102,7 +102,7 @@ while 0 < 6:
         if 0 != 5:
             continue
         DEVS = [
-            1700405732,
+            1878075436,
             1905050903,
             1207111230,
             883761960,
@@ -153,7 +153,7 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "+"
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "AyiinXdSupport")
+GROUP = os.environ.get("GROUP", "wibu_telegram")
 CHANNEL = os.environ.get("CHANNEL", "AyiinSupport")
 
 # Heroku Credentials for updater.
@@ -169,7 +169,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/AyiinXd/Ayiin-Userbot.git"
+    "UPSTREAM_REPO_URL", "https://github.com/muhadamp/Ayiin-Userbot.git"
 )
 
 # Custom Name Sticker Pack
@@ -201,7 +201,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 ALIVE_TEKS_CUSTOM = os.environ.get("ALIVE_TEKS_CUSTOM", "Hey, I am Alive.")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "Yins")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "Adam")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✧")
@@ -539,15 +539,15 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**✧ 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧**\n🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸\n✧ **𝙾𝚆𝙽𝙴𝚁 :** [𝙰𝚢𝚒𝚒𝚗𝚇𝚍](https://t.me/AyiinXd)\n✧ **𝚂𝚄𝙿𝙿𝙾𝚁𝚃 :** @AyiinXdSupport\n✧ **𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈 :** [✧ 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧](https://github.com/AyiinXd/Ayiin-Userbot)\n🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸",
+                    text="**✧ 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧**\n🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸\n✧ **𝙾𝚆𝙽𝙴𝚁 :** [Adam](https://t.me/skyiarul)\n✧ **𝚂𝚄𝙿𝙿𝙾𝚁𝚃 :** @AyiinXdSupport\n✧ **𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈 :** [✧ 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧](https://github.com/muhadam/Ayiin-Userbot)\n🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/AyiinXdSupport"),
+                                "https://t.me/wibu_telegram"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/AyiinXd/Ayiin-Userbot"),
+                                "https://github.com/muhadamp/Ayiin-Userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -594,15 +594,15 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**𝙰𝚈𝙸𝙸𝙽 - 𝚄𝚂𝙴𝚁𝙱𝙾𝚃**\n🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸\n~ **𝚄𝚂𝙴𝚁𝙼𝙾𝙳𝙴 :** [{user.first_name}](tg://user?id={user.id})\n~ **𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 :** {tgbotusername}\n🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸\n**𝚂𝚄𝙿𝙿𝙾𝚁𝚃:** @AyiinXdSupport\n🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸",
+                    text=f"**𝙰𝚈𝙸𝙸𝙽 - 𝚄𝚂𝙴𝚁𝙱𝙾𝚃**\n🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸\n~ **𝚄𝚂𝙴𝚁𝙼𝙾𝙳𝙴 :** [{user.first_name}](tg://user?id={user.id})\n~ **𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 :** {tgbotusername}\n🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸\n**𝚂𝚄𝙿𝙿𝙾𝚁𝚃:** @wibu_telegram\n🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/AyiinXdSupport"),
+                                "https://t.me/wibu_telegram"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/AyiinXd/Ayiin-Userbot"),
+                                "https://github.com/muhadamp/Ayiin-Userbot"),
                         ],
                     ],
                     link_preview=False,
