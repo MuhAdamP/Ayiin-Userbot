@@ -61,7 +61,7 @@ async def deploy(xx, repo, ups_rem, ac_br, txt):
             await edit_or_reply(
                 xx,
                 f"{txt}\n"
-                "**Kredensial Heroku tidak valid untuk deploy Ayiin-Userbot dyno.**",
+                "**Kredensial Heroku tidak valid untuk deploy Arul-Userbot dyno.**",
             )
             return repo.__del__()
         try:
@@ -174,14 +174,14 @@ async def upstream(event):
         return
 
     if changelog == "" and not force_update:
-        await edit_delete(xx, "**✧ 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧ Sudah Versi Terbaru**")
+        await edit_delete(xx, "**✧ 𝙰𝚁𝚄𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧ Sudah Versi Terbaru**")
         return repo.__del__()
 
     if conf == "" and not force_update:
         await print_changelogs(xx, ac_br, changelog)
         await xx.delete()
         return await event.respond(
-            f"**Ketik** `{cmd}update deploy` **Untuk Mengupdate ✧ 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧ .**"
+            f"**Ketik** `{cmd}update deploy` **Untuk Mengupdate ✧ 𝙰𝚁𝚄𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧ .**"
         )
 
     if force_update:
@@ -207,9 +207,9 @@ CMD_HELP.update(
     {
         "update": f"**Plugin : **`update`\
         \n\n  •  **Syntax :** `{cmd}update`\
-        \n  •  **Function : **Untuk Melihat Pembaruan Terbaru Ayiin-Userbot.\
+        \n  •  **Function : **Untuk Melihat Pembaruan Terbaru 𝙰𝚁𝚄𝙻-Userbot.\
         \n\n  •  **Syntax :** `{cmd}update deploy`\
-        \n  •  **Function : **Untuk MengUpdate Fitur Terbaru Dari Ayiin-Userbot.\
+        \n  •  **Function : **Untuk MengUpdate Fitur Terbaru 𝙳𝚊𝚛𝚒 𝙰𝚁𝚄𝙻-Userbot.\
     "
     }
 )
