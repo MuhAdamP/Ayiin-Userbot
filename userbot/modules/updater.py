@@ -25,7 +25,7 @@ async def gen_chlog(repo, diff):
 
 async def print_changelogs(xx, ac_br, changelog):
     changelog_str = (
-        f"**✧ Tersedia Pembaruan Untuk [{ac_br}] \n\n✧ Pembaruan :**\n`{changelog}`\n"
+        f"**✧ Tersedia Pembaruan Untuk [𝙰𝚁𝚄𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃] \n\n✧ Pembaruan :**\n`{changelog}`\n"
     )
     if len(changelog_str) > 4096:
         await edit_or_reply(xx, "**Changelog terlalu besar, dikirim sebagai file.**")
@@ -92,7 +92,7 @@ async def deploy(xx, repo, ups_rem, ac_br, txt):
                 xx, "**Build Gagal!** Dibatalkan karena ada beberapa error.`"
             )
         await edit_or_reply(
-            xx, "`✧ 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧ Berhasil Di Deploy! Userbot bisa di gunakan kembali.`"
+            xx, "`✧ 𝙰𝚁𝚄𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧ Berhasil Di Deploy! Userbot bisa di gunakan kembali.`"
         )
 
     else:
@@ -107,7 +107,7 @@ async def update(xx, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await edit_or_reply(
-        xx, "`✧ 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧ Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`"
+        xx, "`✧ 𝙰𝚁𝚄𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧ Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`"
     )
 
     try:
